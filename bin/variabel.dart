@@ -2,11 +2,14 @@ void main() {
   String name = 'Ahmad Zakaria Fathoni';
   print(name);
   print(name);
-  print(name);
-  const nama = 'Ahmad Zakaria Fathoni';
-  print(nama);
-  print(nama);
-  final namaa = 'Ahmad Zakaria Fathoni';
-  print(namaa);
-  print(namaa);
+  var firstName = 'Ahmad';
+  var lastName = 'Zakaria';
+  print(firstName);
+  print(lastName);
+
+  final array1 = [1, 2, 3];
+  const array2 = [1, 2, 3];
+
+  print(array1);
+  print(array2);
 }
